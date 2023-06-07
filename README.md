@@ -99,7 +99,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/hafiz1379/sample-calculator.git
+  git clone https://github.com/hafiz1379/HTML-cheat-sheet.git
 ```
 
 ### Install
