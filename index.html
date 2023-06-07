@@ -943,6 +943,142 @@
 					</table>
 				</td>
 			</tr>
+            <tr>
+				<td>81</td>
+				<td>&lt;td&gt;</td>
+				<td>colspan,
+					rowspan</td>
+				<td>integer<br>integer</td>
+				<td>&lt;td colspan="2" rowspan="2"&gt;Cell Content&lt;/td&gt;</td>
+				<td>
+					<table border="1" cellpadding="5" cellspacing="0" width="%">
+						<tr>
+							<td>Row 1, Cell 1</td>
+							<td rowspan="2">Row 1, Cell 2<br>Row 2, Cell 2</td>
+						</tr>
+						<tr>
+							<td>Row 2, Cell 1</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>82</td>
+				<td>&lt;th&gt;</td>
+				<td>colspan,
+					rowspan,
+					headers</td>
+				<td>number of columns<br>number of rows<br>ID of header cells</td>
+				<td>&lt;th colspan="2"&gt;Header Cell&lt;/th&gt;<br>&lt;th rowspan="2"&gt;Header Cell&lt;/th&gt;<br>&lt;td headers="header1 header2"&gt;Data Cell&lt;/td&gt;</td>
+				<td>
+					<table>
+						<tr>
+							<th colspan="2">Header Cell</th>
+						</tr>
+						<tr>
+							<th rowspan="2">Header Cell</th>
+							<td headers="header1 header2">Data Cell</td>
+						</tr>
+						<tr>
+							<td headers="header1 header2">Data Cell</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>83</td>
+				<td>&lt;time&gt;</td>
+				<td>datetime</td>
+				<td>date and time in ISO format</td>
+				<td>&lt;time datetime="2023-04-29T09:30:00+08:00"&gt;April 29, 2023 9:30 AM&lt;/time&gt;</td>
+				<td><time datetime="2023-04-29T09:30:00+08:00">April 29, 2023 9:30 AM</time></td>
+			</tr>
+			<tr>
+				<td>84</td>
+				<td>&lt;title&gt;</td>
+				<td>N/A</td>
+				<td>N/A</td>
+				<td>&lt;title&gt;HTML Cheat Sheet&lt;/title&gt;</td>
+				<td>HTML Cheat Sheet</td>
+			</tr>
+			<tr>
+				<td>85</td>
+				<td>&lt;tr&gt;</td>
+				<td>N/A</td>
+				<td>N/A</td>
+				<td>&lt;tr&gt;&lt;td&gt;Data Cell&lt;/td&gt;&lt;/tr&gt;</td>
+				<td><table><tr><td>Data Cell</td></tr></table></td>
+			</tr>
+			<tr>
+				<td>86</td>
+				<td>&lt;track&gt;</td>
+				<td>default,
+					kind,
+					label,
+					src,
+	,srt</td>
+				<td>default track<br>type of track<br>label of track<br>URL of track file<br>URL of WebVTT file</td>
+				<td>&lt;track default kind="subtitles" label="English" src="english.vtt" srclang="en"&gt;</td>
+				<td>N/A</td>
+			</tr>
+			<tr>
+				<td>87</td>
+				<td>&lt;u&gt;</td>
+				<td>N/A</td>
+				<td>Text</td>
+				<td>&lt;u&gt;Underlined text&lt;/u&gt;</td>
+				<td><u>Underlined text</u></td>
+			</tr>
+			<tr>
+				<td>88</td>
+				<td>&lt;ul&gt;</td>
+				<td>N/A</td>
+				<td>
+					&lt;li&gt;Item 1&lt;/li&gt;
+					&lt;li&gt;Item 2&lt;/li&gt;
+					&lt;li&gt;Item 3&lt;/li&gt;
+				</td>
+				<td>
+					&lt;ul&gt;
+					&lt;li&gt;Item 1&lt;/li&gt;
+					&lt;li&gt;Item 2&lt;/li&gt;
+					&lt;li&gt;Item 3&lt;/li&gt;
+					&lt;/ul&gt;
+					</td>
+				<td>
+					<ul>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>89</td>
+				<td>&lt;var&gt;</td>
+				<td>N/A</td>
+				<td>Variable name</td>
+				<td>&lt;var&gt;x&lt;/var&gt; = 5;</td>
+				<td><var>x</var> = 5;</td>
+			</tr>
+			<tr>
+				<td>90</td>
+				<td>&lt;video&gt;</td>
+				<td>
+					src,
+					width,
+					height,
+					controls,
+					autoplay
+				</td>
+				<td>N/A</td>
+				<td>
+					&lt;video src="video.mp4" width="300" height="180" controls autoplay&gt;&lt;/video&gt;
+				</td>
+				<td>
+					<video src="video.mp4" width="300" height="180" controls autoplay></video>
+				</td>
+			</tr>
     </table>
 </body>
 </html>
