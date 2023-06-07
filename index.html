@@ -211,6 +211,116 @@
 			<td>&lt;aside&gt;Aside content&lt;/aside&gt;</td>
 			<td><aside>Aside content</aside></td>
 		</tr>
+        <tr>
+			<td>21</td>
+			<td>&lt;area&gt;</td>
+			<td>shape, coords, href, alt</td>
+			<td>Area coordinates and link information</td>
+			<td>&lt;map name="map_name"&gt;&lt;area shape="rect" coords="0,0,100,100" href="http://example.com" alt="Link text"&gt;&lt;/map&gt;</td>
+			<td><img src="download.jpeg" alt="KU image" usemap="#map_name"><map name="map_name"><area shape="rect" coords="0,0,100,100" href="http://example.com" alt="Link text"></map></td>
+		</tr>
+		<tr>
+			<td>22</td>
+			<td>&lt;applet&gt;</td>
+			<td>code, width, height</td>
+			<td>Applet code and display size</td>
+			<td>&lt;applet code="Applet.class" width="" height=""&gt;&lt;/applet&gt;</td>
+			<td><em>(no visible output - applets are no longer supported in HTML5)</em></td>
+		</tr>
+		<tr>
+			<td>23</td>
+			<td>&lt;b&gt;</td>
+			<td></td>
+			<td>Bold text</td>
+			<td>&lt;b&gt;Bold text&lt;/b&gt;</td>
+			<td><b>Bold text</b></td>
+		</tr>
+		<tr>
+			<td>24</td>
+			<td>&lt;base&gt;</td>
+			<td>href, target</td>
+			<td>Base URL for all relative URLs in the page</td>
+			<td>&lt;base href="http://example.com/" target="_blank"&gt;</td>
+			<td><em>(no visible output - affects all relative URLs on the page)</em></td>
+		</tr>
+		<tr>
+			<td>25</td>
+			<td>&lt;basefont&gt;</td>
+			<td>size, color, face</td>
+			<td>Default font size, color, and typeface for the page</td>
+			<td>&lt;basefont size="5" color="red" face="Arial"&gt;</td>
+			<td><em>(no visible output - deprecated in HTML5)</em></td>
+		</tr>
+		<tr>
+			<td>26</td>
+			<td>&lt;bdi&gt;</td>
+			<td></td>
+			<td>Bidirectional text isolates text that might be displayed in a different direction from other text outside of the <bdi> element</td>
+			<td>&lt;p&gt;Here is some text in English, then &lt;bdi&gt;هناك بعض النصوص باللغة العربية&lt;/bdi&gt; and then more English text.&lt;/p&gt;</td>
+			<td><p>Here is some text in English, then <bdi>هناك بعض النصوص باللغة العربية</bdi> and then more English text.</p></td>
+		</tr>
+		<tr>
+			<td>27</td>
+			<td>&lt;bdo&gt;</td>
+			<td>dir</td>
+			<td>Override the default text direction for text inside the element</td>
+			<td>&lt;p&gt;Here is some English text, then &lt;bdo dir="rtl"&gt;نص عربي&lt;/bdo&gt; and then more English text.&lt;/p&gt;</td>
+			<td><p>Here is some English text, then <bdo dir="rtl">نص عربي</bdo> and then more English text.</p></td>
+		</tr>
+		<tr>
+			<td>28</td>
+			<td>&lt;big&gt;</td>
+			<td></td>
+			<td>Larger text</td>
+			<td>&lt;big&gt;Big text&lt;/big&gt;</td>
+			<td><big>Big text</big></td>
+		</tr>
+		<tr>
+			<td>29</td>
+			<td>&lt;caption&gt;</td>
+			<td>align,
+				valign,
+				width,
+				height,
+				style,
+				class,
+				id</td>
+			<td>Caption for a table</td>
+			<td>
+				&lt;table&gt;<br>
+				&nbsp;&nbsp;&lt;caption&gt;This is the table caption&lt;/caption&gt;<br>
+				&nbsp;&nbsp;&lt;tr&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header 1&lt;/th&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header 2&lt;/th&gt;<br>
+				&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&nbsp;&nbsp;&lt;tr&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 1&lt;/td&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 2&lt;/td&gt;<br>
+				&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&lt;/table&gt;
+			</td>
+			<td>
+				<table>
+					<caption>This is the table caption</caption>
+					<tr>
+						<th>Header 1</th>
+						<th>Header 2</th>
+					</tr>
+					<tr>
+						<td>Data 1</td>
+						<td>Data 2</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>30</td>
+			<td>&lt;center&gt;</td>
+			<td></td>
+			<td>Center-aligns the contents inside the element</td>
+			<td>&lt;center&gt;Centered text&lt;/center&gt;</td>
+			<td><center>Centered text</center></td>
+		</tr>
     </table>
 </body>
 </html>
