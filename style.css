@@ -1,0 +1,55 @@
+/* Created by Hafzullah Rasa */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif, sans-serif;
+  }
+  
+  .title {
+    margin-top: 20px;
+    text-align: center;
+    color: #7a2048;
+  }
+  
+  .details {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  th,
+  td {
+    border: 2px solid #141313;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 0px;
+  }
+  
+  th {
+    background-color: #141414;
+    font-weight: bold;
+    border: 2px solid #7a2048;
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #234e70;
+    color: #fff;
+  }
+  tr:nth-child(odd) {
+    background-color: #7a2048;
+    color: #fff;
+  }
+  
+  /* Created by Hafzullah Rasa */
+  
