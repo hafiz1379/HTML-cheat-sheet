@@ -321,6 +321,167 @@
 			<td>&lt;center&gt;Centered text&lt;/center&gt;</td>
 			<td><center>Centered text</center></td>
 		</tr>
+        <tr>
+			<td>31</td>
+			<td>&lt;code&gt;</td>
+			<td></td>
+			<td>Displays code or computer output</td>
+			<td>&lt;p&gt;Here is some &lt;code&gt;code&lt;/code&gt;.&lt;/p&gt;</td>
+			<td><p>Here is some <code>code</code>.</p></td>
+		</tr>
+		<tr>
+			<td>32</td>
+			<td>&lt;col&gt;</td>
+			<td>span,
+				width,
+				align,
+				valign,
+				char,
+				charoff</td>
+			<td>Specifies properties for a column in a table</td>
+			<td>&lt;table&gt;<br>
+				&nbsp;&nbsp;&lt;colgroup&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;col span="2" style="background-color: yellow;"&gt;<br>
+				&nbsp;&nbsp;&lt;/colgroup&gt;<br>
+				&nbsp;&nbsp;&lt;tr&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 1&lt;/td&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 2&lt;/td&gt;<br>
+				&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&lt;/table&gt;
+			</td>
+			<td>
+				<table>
+					<colgroup>
+						<col span="2" style="background-color: yellow;">
+					</colgroup>
+					<tr>
+						<td>Data 1</td>
+						<td>Data 2</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>33</td>
+			<td>&lt;colgroup&gt;</td>
+			<td>span,
+				width,
+				align,
+				valign,
+				char,
+				charoff</td>
+			<td>Specifies properties for a group of columns in a table</td>
+			<td>&lt;table&gt;<br>
+				&nbsp;&nbsp;&lt;colgroup&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;col span="2" style="background-color: yellow;"&gt;<br>
+				&nbsp;&nbsp;&lt;/colgroup&gt;<br>
+				&nbsp;&nbsp;&lt;tr&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 1&lt;/td&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 2&lt;/td&gt;<br>
+				&nbsp;&nbsp;&lt;/tr&gt;<br>
+				&lt;/table&gt;
+			</td>
+			<td>
+				<table>
+					<colgroup>
+						<col span="2" style="background-color: yellow;">
+					</colgroup>
+					<tr>
+						<td>Data 1</td>
+						<td>Data 2</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>34</td>
+			<td>&lt;details&gt;</td>
+			<td>open,
+				ontoggle</td>
+			<td>Specifies whether a details element is open or closed</td>
+			<td>&lt;details open&gt;<br>
+				&nbsp;&nbsp;&lt;summary&gt;Click me&lt;/summary&gt;<br>
+				&nbsp;&nbsp;&lt;p&gt;Some text&lt;/p&gt;<br>
+				&lt;/details&gt;
+			</td>
+			<td>
+				<details open>
+					<summary>Click me</summary>
+					<p>Some text</p>
+				</details>
+			</td>
+		</tr>
+		<tr>
+			<td>35</td>
+			<td>&lt;del&gt;</td>
+			<td>cite, datetime</td>
+			<td>Defines text that has been deleted from a document</td>
+			<td>&lt;p&gt;This is <del>canceled</del> text.&lt;/p&gt;</td>
+			<td><p>This is <del>canceled</del> text.</p></td>
+		</tr>
+		<tr>
+			<td>36</td>
+			<td>&lt;data&gt;</td>
+			<td>value,
+				id,
+				class,
+				style,
+				title</td>
+			<td>Defines the machine-readable value of an element</td>
+			<td>&lt;p&gt;The temperature is <data value="23.5">23.5 degrees Celsius</data>.&lt;/p&gt;</td>
+			<td><p>The temperature is <data value="23.5">23.5 degrees Celsius</data>.</p></td>
+		</tr>
+		<tr>
+			<td>37</td>
+			<td>&lt;dd&gt;</td>
+			<td>none</td>
+			<td>Defines a description of an item in a description list</td>
+			<td>&lt;dl&gt;<br>
+				&nbsp;&nbsp;&lt;dt&gt;Term&lt;/dt&gt;<br>
+				&nbsp;&nbsp;&lt;dd&gt;Description&lt;/dd&gt;<br>
+				&lt;/dl&gt;
+			</td>
+			<td>
+				<dl>
+					<dt>Term</dt>
+					<dd>Description</dd>
+				</dl>
+			</td>
+		</tr>
+		<tr>
+			<td>38</td>
+			<td>&lt;dt&gt;</td>
+			<td>N/A</td>
+			<td>Definition term</td>
+			<td>&lt;dt&gt;Definition term&lt;/dt&gt;</td>
+			<td><dt>Definition term</dt></td>
+		  </tr>
+		  <tr>
+			<td>39</td>
+			<td>&lt;dl&gt;</td>
+			<td>N/A</td>
+			<td>Definition list</td>
+			<td>
+			  &lt;dl&gt;<br>
+			  &nbsp;&nbsp;&lt;dt&gt;Definition term&lt;/dt&gt;<br>
+			  &nbsp;&nbsp;&lt;dd&gt;Definition description&lt;/dd&gt;<br>
+			  &lt;/dl&gt;
+			</td>
+			<td>
+			  <dl>
+				<dt>Definition term</dt>
+				<dd>Definition description</dd>
+			  </dl>
+			</td>
+		  </tr>
+		  <tr>
+			<td>40</td>
+			<td>&lt;div&gt;</td>
+			<td>id<br>class<br>style<br>title</td>
+			<td>Block-level container</td>
+			<td>&lt;div id="example" class="example" style="color: blue;" title="Example"&gt;Block-level container&lt;/div&gt;</td>
+			<td><div id="example" class="example" style="color: blue;" title="Example">Block-level container</div></td>
+		  </tr>
     </table>
 </body>
 </html>
